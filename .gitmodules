@@ -4,6 +4,9 @@
 [submodule "luci-app-alist"]
 	path = luci-app-alist
 	url = https://github.com/sbwml/luci-app-alist.git
+[submodule "luci-app-k3screenctrl"]
+	path = luci-app-k3screenctrl
+	url = https://github.com/Hill-98/luci-app-k3screenctrl.git
 [submodule "k3screenctrl"]
 	path = k3screenctrl
 	url = https://github.com/YLEDE/k3screenctrl.git
