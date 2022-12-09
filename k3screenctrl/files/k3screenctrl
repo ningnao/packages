@@ -1,0 +1,10 @@
+
+config general
+	option screen_time '30'
+	option refresh_time '2'
+	option update_time '43200'
+	option city_checkip '1'
+	option psk_hide '1'
+	option pawd_hide '1'
+	option showmore '0'
+	
