@@ -1,17 +1,17 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=k3screenctrl
-PKG_VERSION:=1.0
+PKG_VERSION:=1.1
 PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/Hill-98/k3screenctrl
-PKG_SOURCE_VERSION:=3257090decf7de1e70ef6e7bf28d0491ffe78854
+PKG_SOURCE_URL:=https://github.com/YLEDE/k3screenctrl
+PKG_SOURCE_VERSION:=e2132046ffd3d2e98f274267c4736c3dd8e3e496
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_SOURCE_VERSION)
 PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
 
-PKG_MAINTAINER:=Zhong Lufan <lufanzhong@gmail.com>
+PKG_MAINTAINER:=Hamster Tian <haotia@gmail.com>
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -22,7 +22,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=Utilities
   DEPENDS:=+@KERNEL_DEVMEM +!BUSYBOX_CONFIG_ARPING:iputils-arping +bash
   TITLE:=LCD screen controller on PHICOMM K3
-  URL:=https://github.com/Hill-98/k3screenctrl
+  URL:=https://github.com/YLEDE/k3screenctrl
 endef
 
 define Package/$(PKG_NAME)/description
