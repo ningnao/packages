@@ -2,9 +2,11 @@
 
 local m, s ,o
 
-m = Map("k3screenctrl", translate("Screen"), translate("Customize your device screen"))
+m = Map("k3screenctrl")
+m.title = ("K3 Screen")
+m.description = translate("Customize your device screen")
 
-s = m:section(TypedSection, "general", translate("General Setting") )
+s = m:section(TypedSection, "general")
 s.anonymous = true
 
 o = s:option(ListValue, "screen_time", translate("Screen time :"), translate("This time no action, the screen will close."))
