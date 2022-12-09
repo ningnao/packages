@@ -3,7 +3,7 @@
 local m, s ,o
 
 m = Map("k3screenctrl")
-m.title = ("K3 Screen")
+m.title = translate("K3 Screen")
 m.description = translate("Customize your device screen")
 
 s = m:section(TypedSection, "general")
