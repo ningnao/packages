@@ -1,6 +1,6 @@
 [submodule "luci-theme-neobird"]
 	path = luci-theme-neobird
-	url = https://github.com/shenzhiweilou/luci-theme-neobird.git
+	url = https://github.com/ningnao/luci-theme-neobird.git
 [submodule "luci-app-alist"]
 	path = luci-app-alist
 	url = https://github.com/sbwml/luci-app-alist.git
