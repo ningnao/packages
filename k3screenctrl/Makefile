@@ -2,16 +2,16 @@ include $(TOPDIR)/rules.mk
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=k3screenctrl
-PKG_VERSION:=1.1
+PKG_VERSION:=1.2
 PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/YLEDE/k3screenctrl.git
-PKG_SOURCE_VERSION:=e2132046ffd3d2e98f274267c4736c3dd8e3e496
+PKG_SOURCE_URL:=https://github.com/ningnao/k3screenctrl.git
+PKG_SOURCE_VERSION:=ca2b2e21416a344aebb4c2c1f14731898c35bfe7
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_SOURCE_VERSION)
 PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.xz
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)
-PKG_MAINTAINER:=Hamster Tian <haotia@gmail.com>
+PKG_MAINTAINER:=ningnao <ningnao@foxmail.com>
 
 include $(INCLUDE_DIR)/package.mk
 
