@@ -22,7 +22,7 @@ define Package/k3screenctrl
   CATEGORY:=Utilities
   DEPENDS:=@(TARGET_bcm53xx_generic_DEVICE_phicomm_k3||TARGET_bcm53xx_generic_DEVICE_phicomm-k3||TARGET_bcm53xx_DEVICE_phicomm-k3) +@KERNEL_DEVMEM +coreutils +coreutils-od +bash +curl
   TITLE:=LCD screen controller on PHICOMM K3
-  URL:=https://github.com/YLEDE/k3screenctrl.git
+  URL:=https://github.com/ningnao/k3screenctrl.git
 endef
 
 define Package/k3screenctrl/description
